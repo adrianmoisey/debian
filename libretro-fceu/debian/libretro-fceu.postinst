@@ -1,0 +1,3 @@
+#!/bin/sh
+
+update-alternatives --install /usr/lib/libretro.so libretro /usr/lib/libretro-fceu.so 10

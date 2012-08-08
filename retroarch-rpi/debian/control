@@ -1,0 +1,18 @@
+Source: retroarch
+Section: games
+Priority: extra
+Maintainer: Adrian Moisey <adrian@changeover.za.net>
+Build-Depends: debhelper (>= 7), libsdl1.2-dev, libasound2-dev, libxv-dev, libopenal-dev, libsamplerate0-dev, libxml2-dev, libswscale-dev, libsdl-ttf2.0-dev, libfreetype6-dev, libsdl-image1.2-dev
+Standards-Version: 3.8.3
+Homepage: https://github.com/ToadKing/RetroArch-Rpi
+
+Package: retroarch
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsdl-image1.2, libsdl-ttf2.0-0, libsdl1.2debian, libsdl-image1.2, libopenal1, libqtgui4, libsdl-ttf2.0-0
+Replaces: ssnes
+Description: A simple frontend for the libretro library.
+ .
+ RetroArch attempts to be very small and lean, while still having all of the useful
+ core features expected form an emulator. It is a command-line-only interface, though RetroArch-Phoenix provides a minimal GUI.
+ .
+ RetroArch supports both Cg shaders and bsnes-style XML shaders.
