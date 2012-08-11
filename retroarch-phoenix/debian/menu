@@ -1,0 +1,7 @@
+?package(bsnes): \
+	command="/usr/bin/retroarch-phoenix" \
+	needs="X11,wm" \
+	section="Games" \
+	title:"RetroArch-Phoenix" \
+	hints="Beginner,Small" \
+	icon="/usr/share/pixmaps/retroarch-phoenix-icon.png"
