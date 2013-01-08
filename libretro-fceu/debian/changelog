@@ -1,3 +1,9 @@
+libretro-fceu (0.4~git20130107.25f0b79133) UNRELEASED; urgency=low
+
+  * New upstream
+
+ -- Adrian Moisey <adrian@changeover.za.net>  Mon, 07 Jan 2013 16:30:03 +0200
+
 libretro-fceu (0.4~git20120808.62ef3b499e) UNRELEASED; urgency=low
 
   * Build 62ef3b499e for armel
