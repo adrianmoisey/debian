@@ -1,3 +1,9 @@
+retroarch (0.9.7~git20130107.fa8ccf412c) UNRELEASED; urgency=low
+
+  * New upstream
+
+ -- Adrian Moisey <adrian@changeover.za.net>  Mon, 07 Jan 2013 15:55:12 +0200
+
 retroarch (0.9.7~git20120808.02ee5b7948) UNRELEASED; urgency=low
 
   * Build of RetroArch-Rpi for armhf
